@@ -44,7 +44,7 @@ export default function Contact() {
             Start Your Project
           </h2>
           <p className="text-white/40">
-            Tell us what you want to build and we'll get back to you within 24 hours.
+            Tell us what you want to build and we&apos;ll get back to you within 24 hours.
           </p>
         </motion.div>
 
@@ -74,7 +74,7 @@ export default function Contact() {
           >
             {status === "sending" ? "Sending..." : "Send Message →"}
           </button>
-          {status === "sent"  && <p className="text-green-400 text-sm text-center">✓ Message sent! We'll reply soon.</p>}
+          {status === "sent"  && <p className="text-green-400 text-sm text-center">✓ Message sent! We&apos;ll reply soon.</p>}
           {status === "error" && <p className="text-red-400 text-sm text-center">Something went wrong. Try again.</p>}
         </motion.form>
 

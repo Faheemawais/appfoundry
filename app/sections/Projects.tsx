@@ -23,7 +23,7 @@ export default function Projects() {
             Our Work
           </p>
           <h2 className="text-4xl md:text-5xl font-black text-white">
-            Best Apps that We've Shipped
+            Best Apps that We&apos;ve Shipped
           </h2>
         </motion.div>
 
