@@ -3,6 +3,9 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "App Foundry — We Build Apps That Ship",
+  verification: {
+    google: "ecorOunJxIcR2A5AxVIv5YA1HtcouZZtjPT5LPIagx4",
+  },
   description:
     "App Foundry is a software house building mobile and web apps for clients worldwide. Flutter, Firebase, React — we deliver.",
   openGraph: {
