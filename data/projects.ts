@@ -40,19 +40,6 @@ export const projects: Project[] = [
     price: "$800–$1000",
     platform: "iOS & Android",
   },
-  {
-    id: 3,
-    title: "Pattern Lab",
-    subtitle: "AI Self-Awareness App",
-    description:
-      "A self-awareness and dating-pattern tracker. Users log interactions, track emotional and behavioral patterns, and unlock AI-generated insights with practical suggestions to move forward with clarity.",
-    tags: ["Flutter", "Firebase", "AI", "Data Insights"],
-    image: "/projects/patternlab.jpg",
-    date: "2026",
-    duration: "1–2 Months",
-    price: "Custom Quote",
-    platform: "iOS & Android",
-  },
 ];
 
 // ✅ To add a new project in future:
