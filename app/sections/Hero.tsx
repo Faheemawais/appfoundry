@@ -94,9 +94,9 @@ export default function Hero() {
           className="mt-20 flex flex-wrap justify-center gap-12"
         >
           {[
-            { value: "15+",  label: "Apps Shipped"    },
+            { value: "100+",  label: "Apps Shipped"    },
             { value: "5★",  label: "Fiverr Rating"   },
-            { value: "2+",  label: "Years Building"  },
+            { value: "5+",  label: "Years Building"  },
           ].map((s) => (
             <div key={s.label} className="text-center">
               <div className="text-3xl font-black text-brand-orange">{s.value}</div>

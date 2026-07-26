@@ -15,6 +15,34 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
+    title: "AutoVids",
+    subtitle: "Script in, finished documentary out.",
+    description:
+      "Paste a script or upload a voiceover, and AutoVids assembles a fully narrated video — complete with archival footage, pacing, and sound — no editing timeline required.",
+    tags: ["Python", "ElevenLabs", "OpenAI TTS", "ffmpeg", "Next.js"],
+    image: "/projects/autovids_banner.png",
+    date: "April 2026",
+    duration: "1–3 Months",
+    price: "$1500–$2500",
+    platform: "Desktop",
+    liveUrl: "https://render.umrabdulllah.com/",
+  },
+  {
+    id: 2,
+    title: "Channel Sync",
+    subtitle: "Every channel. One pulse.",
+    description:
+      "Pulls every YouTube channel you run — across any Google account — into one dashboard. Daily snapshots, cross-channel charts, and plain-English AI insights about what's actually working.",
+    tags: ["Next.js", "Tailwind", "Youtube Data Api"],
+    image: "/projects/channelsync_banner.png",
+    date: "june 2026",
+    duration: "7-30 Days",
+    price: "$500–$1000",
+    platform: "Desktop & Web",
+    liveUrl: "https://channelsync.io/",
+  },
+  {
+    id: 3,
     title: "Ascend Together",
     subtitle: "Gym Tracking App",
     description:
@@ -28,7 +56,21 @@ export const projects: Project[] = [
     liveUrl: "https://apps.apple.com/pk/app/ascend-together-gym-tracking/id6615076231",
   },
   {
-    id: 2,
+    id: 4,
+    title: "WebTools",
+    subtitle: "All the tools. One place.",
+    description:
+      "A single dashboard for the whole creator toolkit — AI image generation, thumbnail pipelines, YouTube analytics, and channel tracking, all behind one login.",
+    tags: ["Next.js", "Tailwind", "Youtube Data Api", "GPT Image 2", "Flux"],
+    image: "/projects/webtools_banner.png",
+    date: "May 2026",
+    duration: "1-3 Months",
+    price: "$1500–$2500",
+    platform: "Desktop & Web",
+    liveUrl: "https://webtools-beta.vercel.app/",
+  },
+  {
+    id: 5,
     title: "Island Crush SXM",
     subtitle: "Location-Based Dating App",
     description:
@@ -41,7 +83,7 @@ export const projects: Project[] = [
     platform: "iOS & Android",
   },
   {
-    id: 3,
+    id: 6,
     title: "Personal Finance & Digital Banking App",
     subtitle: "Smart banking, better living",
     description:
@@ -54,7 +96,7 @@ export const projects: Project[] = [
     platform: "iOS & Android",
   },
   {
-    id: 4,
+    id: 7,
     title: "Money Watch",
     subtitle: "Watch & Earn Mobile App",
     description:
@@ -67,7 +109,7 @@ export const projects: Project[] = [
     platform: "iOS & Android",
   },
   {
-    id: 5,
+    id: 8,
     title: "LITTLE JOY CLUB",
     subtitle: "Self-Love & Mental Wellness Mobile App",
     description:
