@@ -83,7 +83,20 @@ export const projects: Project[] = [
     platform: "iOS & Android",
   },
   {
-    id: 6,
+  id: 6,
+  title: "CHALK",
+  subtitle: "Sports Pick'em App",
+  description:
+    "A sports pick'em app where users pick winners across MLB, NBA, and NFL, earn a letter grade for accuracy, build streaks, and share their board with friends.",
+  tags: ["Flutter", "Supabase", "iOS"],
+  image: "/projects/chalk_banner.png",
+  date: "Aug 2026",
+  duration: "3–4 Weeks",
+  price: "$600",
+  platform: "iOS",
+},
+  {
+    id: 7,
     title: "Personal Finance & Digital Banking App",
     subtitle: "Smart banking, better living",
     description:
@@ -96,7 +109,7 @@ export const projects: Project[] = [
     platform: "iOS & Android",
   },
   {
-    id: 7,
+    id: 8,
     title: "Money Watch",
     subtitle: "Watch & Earn Mobile App",
     description:
@@ -109,7 +122,7 @@ export const projects: Project[] = [
     platform: "iOS & Android",
   },
   {
-    id: 8,
+    id: 9,
     title: "LITTLE JOY CLUB",
     subtitle: "Self-Love & Mental Wellness Mobile App",
     description:
