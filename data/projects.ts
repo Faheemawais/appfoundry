@@ -122,7 +122,19 @@ export const projects: Project[] = [
     platform: "iOS & Android",
   },
 ];
-
+{
+  id: 9,
+  title: "CHALK",
+  subtitle: "Sports Pick'em App",
+  description:
+    "A sports pick'em app where users pick winners across MLB, NBA, and NFL, earn a letter grade for accuracy, build streaks, and share their board with friends.",
+  tags: ["Flutter", "Supabase", "iOS"],
+  image: "/projects/chalk_banner.png",
+  date: "Aug 2026",
+  duration: "3–4 Weeks",
+  price: "$600",
+  platform: "iOS",
+},
 // ✅ To add a new project in future:
 // Just copy one object above, change the values,
 // add your image to /public/projects/, done.
