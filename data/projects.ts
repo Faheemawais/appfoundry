@@ -135,7 +135,6 @@ export const projects: Project[] = [
     platform: "iOS & Android",
   },
 ];
-
 // ✅ To add a new project in future:
 // Just copy one object above, change the values,
 // add your image to /public/projects/, done.
