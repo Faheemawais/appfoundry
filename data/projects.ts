@@ -14,6 +14,20 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: 0,
+    title: "Pattern Lab",
+    subtitle: "AI Self-Awareness App",
+    description:
+      "A self-awareness and dating-pattern tracker. Users log interactions, track emotional and behavioral patterns, and unlock AI-generated insights with practical suggestions to move forward with clarity.",
+    tags: ["Flutter", "Firebase", "AI", "Data Insights"],
+    image: "/projects/patternlab.jpg",
+    date: "Sep 2026",
+    duration: "1–2 Months",
+    price: "$1200-$1500",
+    platform: "iOS & Android",
+    liveUrl: "https://play.google.com/store/apps/details?id=com.patternlab.app",
+  },
+  {
     id: 1,
     title: "AutoVids",
     subtitle: "Script in, finished documentary out.",
