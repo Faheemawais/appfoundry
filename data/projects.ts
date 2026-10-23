@@ -25,7 +25,7 @@ export const projects: Project[] = [
     duration: "1–2 Months",
     price: "$1200-$1500",
     platform: "iOS & Android",
-    liveUrl: "https://play.google.com/store/apps/details?id=com.patternlab.app",
+    liveUrl: "https://apps.apple.com/app/pattern-lab-relationships/id6809672076",
   },
   {
     id: 1,
