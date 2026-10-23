@@ -43,6 +43,19 @@ export const projects: Project[] = [
   },
   {
     id: 2,
+    title: "Vellora",
+    subtitle: "Fashion & Lifestyle Shopping App",
+    description:
+      "Vellora is a modern shopping app for iOS and Android. It makes browsing and buying fashion, accessories and electronics quick and enjoyable. Its clean orange design, smooth navigation and simple checkout help shoppers find what they like and buy it in a few taps.",
+    tags: ["Flutter", "Firebase", "AI", "Data Insights", "Shopify"],
+    image: "/projects/vellora.png",
+    date: "Sep 2026",
+    duration: "1–3 Months",
+    price: "$1200-$1500",
+    platform: "iOS & Android",
+  },
+  {
+    id: 3,
     title: "Channel Sync",
     subtitle: "Every channel. One pulse.",
     description:
@@ -56,7 +69,7 @@ export const projects: Project[] = [
     liveUrl: "https://channelsync.io/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Ascend Together",
     subtitle: "Gym Tracking App",
     description:
@@ -70,7 +83,7 @@ export const projects: Project[] = [
     liveUrl: "https://apps.apple.com/pk/app/ascend-together-gym-tracking/id6615076231",
   },
   {
-    id: 4,
+    id: 5,
     title: "WebTools",
     subtitle: "All the tools. One place.",
     description:
@@ -84,7 +97,7 @@ export const projects: Project[] = [
     liveUrl: "https://webtools-beta.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Island Crush SXM",
     subtitle: "Location-Based Dating App",
     description:
@@ -97,7 +110,7 @@ export const projects: Project[] = [
     platform: "iOS & Android",
   },
   {
-  id: 6,
+  id: 7,
   title: "CHALK",
   subtitle: "Sports Pick'em App",
   description:
@@ -110,7 +123,7 @@ export const projects: Project[] = [
   platform: "iOS",
 },
   {
-    id: 7,
+    id: 8,
     title: "Personal Finance & Digital Banking App",
     subtitle: "Smart banking, better living",
     description:
@@ -123,7 +136,7 @@ export const projects: Project[] = [
     platform: "iOS & Android",
   },
   {
-    id: 8,
+    id: 9,
     title: "Money Watch",
     subtitle: "Watch & Earn Mobile App",
     description:
@@ -136,7 +149,7 @@ export const projects: Project[] = [
     platform: "iOS & Android",
   },
   {
-    id: 9,
+    id: 10,
     title: "LITTLE JOY CLUB",
     subtitle: "Self-Love & Mental Wellness Mobile App",
     description:
