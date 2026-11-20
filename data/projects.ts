@@ -15,6 +15,20 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 0,
+    title: "CarLove",
+    subtitle: "Your car deserves love. Mobile detailing made easy—anytime, anywhere!",
+    description:
+      "Tired of waiting in long car wash lines? With Car Love, professional car detailing comes straight to your doorstep. Whether you're at home, at work, or on the go, our skilled mobile detailers make your car shine inside and out.",
+    tags: ["Flutter", "Firebase", "AI", "Data Insights"],
+    image: "/projects/carlove.png",
+    date: "Nov 2026",
+    duration: "1–3 Months",
+    price: "$2500-$3000",
+    platform: "iOS & Android",
+    liveUrl: "https://apps.apple.com/us/app/carlove-detail-your-car/id6752032667",
+  },
+  {
+    id: 1,
     title: "Pattern Lab",
     subtitle: "AI Self-Awareness App",
     description:
@@ -28,7 +42,7 @@ export const projects: Project[] = [
     liveUrl: "https://apps.apple.com/app/pattern-lab-relationships/id6809672076",
   },
   {
-    id: 1,
+    id: 2,
     title: "AutoVids",
     subtitle: "Script in, finished documentary out.",
     description:
@@ -42,7 +56,7 @@ export const projects: Project[] = [
     liveUrl: "https://render.umrabdulllah.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Vellora",
     subtitle: "Fashion & Lifestyle Shopping App",
     description:
@@ -55,7 +69,7 @@ export const projects: Project[] = [
     platform: "iOS & Android",
   },
   {
-    id: 3,
+    id: 4,
     title: "Channel Sync",
     subtitle: "Every channel. One pulse.",
     description:
@@ -69,7 +83,7 @@ export const projects: Project[] = [
     liveUrl: "https://channelsync.io/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Ascend Together",
     subtitle: "Gym Tracking App",
     description:
@@ -83,7 +97,7 @@ export const projects: Project[] = [
     liveUrl: "https://apps.apple.com/pk/app/ascend-together-gym-tracking/id6615076231",
   },
   {
-    id: 5,
+    id: 6,
     title: "WebTools",
     subtitle: "All the tools. One place.",
     description:
@@ -97,7 +111,7 @@ export const projects: Project[] = [
     liveUrl: "https://webtools-beta.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Island Crush SXM",
     subtitle: "Location-Based Dating App",
     description:
@@ -110,7 +124,7 @@ export const projects: Project[] = [
     platform: "iOS & Android",
   },
   {
-  id: 7,
+  id: 8,
   title: "CHALK",
   subtitle: "Sports Pick'em App",
   description:
@@ -123,7 +137,7 @@ export const projects: Project[] = [
   platform: "iOS",
 },
   {
-    id: 8,
+    id: 9,
     title: "Personal Finance & Digital Banking App",
     subtitle: "Smart banking, better living",
     description:
@@ -136,7 +150,7 @@ export const projects: Project[] = [
     platform: "iOS & Android",
   },
   {
-    id: 9,
+    id: 10,
     title: "Money Watch",
     subtitle: "Watch & Earn Mobile App",
     description:
@@ -149,7 +163,7 @@ export const projects: Project[] = [
     platform: "iOS & Android",
   },
   {
-    id: 10,
+    id: 11,
     title: "LITTLE JOY CLUB",
     subtitle: "Self-Love & Mental Wellness Mobile App",
     description:
